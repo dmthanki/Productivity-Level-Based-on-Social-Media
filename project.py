@@ -31,7 +31,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 
 # ========== Step 1: Load ==========
-DATA_PATH = "Dataset\social_media_vs_productivity.csv"
+DATA_PATH = "Dataset/social_media_vs_productivity.csv"
 df = pd.read_csv(DATA_PATH)
 
 print("Shape:", df.shape)
